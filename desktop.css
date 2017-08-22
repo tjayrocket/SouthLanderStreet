@@ -1,3 +1,29 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1028px) {
 
+  body {
+    width: 768px;
+    margin: auto;
+  }
+
+  #logo{
+    width: 150px;;
+  }
+
+  #content {
+    margin-top: 15%;
+  }
+
+  .band{
+    font-size: .5em;
+    font-weight: 400;
+  }
+
+  #bio {
+    font-size: .75em;
+    margin-bottom: 15%;
+  }
+
+  .notes {
+    font-size: 1em;
+  }
 }
