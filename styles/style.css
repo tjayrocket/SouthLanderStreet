@@ -4,6 +4,7 @@ body {
   width: 100%;
   background-color: #444;
   text-align: center;
+  margin: auto;
   z-index: -1;
 }
 h1{
@@ -45,12 +46,14 @@ p {
 
 #player {
   width: 100%;
+  max-width: 768px;
   height: 265px;
   background-color: #444;
   border: 2px solid black;
 }
 #showlist{
   width: 100%;
+  max-width: 768px;
   display: inline-block;
   height: 550px;
   margin: 0;

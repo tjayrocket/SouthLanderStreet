@@ -5,9 +5,18 @@
   body {
     width: 768px;
     margin: auto;
+    text-align: center;
   }
   #logo{
     width: 150px;;
+  }
+  #player{
+    max-width: 768px;
+
+  }
+  #showlist{
+    max-width: 768px;
+
   }
   #content {
     margin-top: 15%;
