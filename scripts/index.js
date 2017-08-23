@@ -1,19 +1,21 @@
 'use strict';
 
-let timeLapse = 5;
-let current = 0;
+let slideIndex = 0;
+showSlides();
 
-let hero1 = '../assets/current-heros/logohero.png';
-let hero2 = '../assets/current-heros/logohero.png';
-let hero3 = '../assets/current-heros/logohero.png';
-
-let currentHeros = [hero1, hero2, hero3];
-
-console.log(currentHeros);
-
-function heroRotate(){
-  console.log('hello');
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000);
 }
-
-heroRotate();
-
