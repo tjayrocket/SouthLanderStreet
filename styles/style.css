@@ -76,7 +76,7 @@ margin: auto;
 
 #logo{
   top: 0;
-  width: 30%;
+  width: 20%;
 }
 
 
@@ -96,6 +96,6 @@ margin: auto;
 }
 
 .notes {
-  font-size: 1em;
+  font-size: .5em;
   color: #444;
 }
