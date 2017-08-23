@@ -6,6 +6,10 @@
     width: 768px;
     margin: auto;
     text-align: center;
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
   }
   #logo{
     width: 150px;;
