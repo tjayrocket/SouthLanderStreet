@@ -11,6 +11,9 @@
     background-attachment: fixed;
     background-position: center;
   }
+  #top-bar{
+    height: 100px;
+  }
   #logo{
     width: 150px;;
   }
